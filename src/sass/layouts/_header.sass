@@ -1,0 +1,25 @@
+aside
+  width: 400px
+  background: hotpink
+.nav_logo
+  text-align: center
+  margin: auto
+  padding-top: 5em
+.float_left
+  float: left
+.close_nav
+  float: right
+  width: 50px
+  height: 50px
+  border-radius: 100%
+  background: white
+  transform: translateX(50%)
+  border: 1px solid lightgrey
+  transition: all ease 2s
+  img
+    &.animation
+      transform: rotate(180deg)
+.closed_nav
+  transition: all ease 2s
+  margin-left: -200px
+  //transform: translateX(-200px)
