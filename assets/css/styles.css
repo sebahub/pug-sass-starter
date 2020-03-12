@@ -28,7 +28,9 @@ body {
 
 aside {
   width: 400px;
-  background: hotpink;
+  -webkit-transition: all ease 0.2s;
+  -o-transition: all ease 0.2s;
+  transition: all ease 0.2s;
 }
 
 .nav_logo {
@@ -51,9 +53,6 @@ aside {
   -ms-transform: translateX(50%);
   transform: translateX(50%);
   border: 1px solid lightgrey;
-  -webkit-transition: all ease 2s;
-  -o-transition: all ease 2s;
-  transition: all ease 2s;
 }
 
 .close_nav img.animation {
@@ -63,8 +62,5 @@ aside {
 }
 
 .closed_nav {
-  -webkit-transition: all ease 2s;
-  -o-transition: all ease 2s;
-  transition: all ease 2s;
-  margin-left: -200px;
+  margin-left: -230px;
 }
